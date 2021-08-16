@@ -53,8 +53,8 @@ const getWeather = city => {
       AmPm = 'AM'
     }
   
-    if (hour < 10) hour = `0${hour}`
-    if (minute < 10) hour = `0${minute}`
+    // if (hour < 10) hour = `0${hour}`
+    // if (minute < 10) hour = `0${minute}`
   
     return time = `${hour} : ${minute} ${AmPm}`
   }
